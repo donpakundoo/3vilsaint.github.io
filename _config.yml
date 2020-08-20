@@ -3,7 +3,7 @@ markdown: kramdown
 baseurl: /demoproj
 exclude: ['README.md']
 future: true
-permalink: pretty   # /:categories/:title.html
+permalink: none   # /:categories/:title.html
 
 
 kramdown:

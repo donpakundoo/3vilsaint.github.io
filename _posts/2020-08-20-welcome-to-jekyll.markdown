@@ -2,7 +2,11 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2020-08-20 11:19:34 +0800
-categories: jekyll update
+meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+category: coding
+image: blue-js.png
+date: 7 April 2020
+tags: white-hat hex code
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
