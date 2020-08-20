@@ -1,11 +1,11 @@
 ---
-layout: default
-title: About This layout
+layout: post
+title: Suiquam erat volut Quisque posuere itur hendrerit.
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 category: coding
-image: card1-img.png
+image: blue-js.png
 date: 7 April 2020
-tags: hacking coding
+tags: white-hat hex code
 ---
 
 

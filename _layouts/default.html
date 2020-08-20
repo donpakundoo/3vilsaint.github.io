@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{site.baseurl}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="css/simple-sidebar.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/style2.css" rel="stylesheet" />
+    <link href="{{site.baseurl}}/css/simple-sidebar.css" rel="stylesheet" />
+    <link href="{{site.baseurl}}/css/style.css" rel="stylesheet" />
+    <link href="{{site.baseurl}}/css/style2.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <style>
       /* .my-row {
@@ -33,6 +33,9 @@
         break-inside: avoid;
       } */
     </style>
+    {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
   </head>
 
   <body class="evail-saint">
@@ -47,7 +50,7 @@
               <div class="col text-center">
                 <span class="main-logo-span">
                     <a href="{{site.baseurl}}/index.html">
-                  <img class="main-logo" src="./images/evilsaintshield-newlogo.png" alt="" />
+                  <img class="main-logo" src="{{site.baseurl}}/images/evilsaintshield-newlogo.png" alt="" />
                     </a>
                 </span>
               </div>
@@ -122,7 +125,7 @@
             </div>
             <div class="row person-row justify-content-center">
               <div class="col-12 text-center">
-                <img src="./images/VA2_copy.png" alt="person-img" />
+                <img src="{{site.baseurl}}//images/VA2_copy.png" alt="person-img" />
               </div>
               <div class="col-12 text-center">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu pharetrax. Etiam eget dila Sed.</p>
@@ -146,21 +149,21 @@
           <div class="row nav-search-row">
             <div class="col-2 right-logo-col">
                 <a href="{{site.baseurl}}/index.html">
-              <img src="./images/white-logo.png" class="nav-img" alt="ES-Wordmark" />
+              <img src="{{site.baseurl}}//images/white-logo.png" class="nav-img" alt="ES-Wordmark" />
             </a>
             </div>
             <div class="col-6 top-search-col">
               <div class="input-group">
                 <input type="text" class="form-control nav-search" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                 <div class="input-group-append">
-                  <span class="input-group-text" id="basic-addon2"><img src="./images/nav-serach.png" alt="" /></span>
+                  <span class="input-group-text" id="basic-addon2"><img src="{{site.baseurl}}//images/nav-serach.png" alt="" /></span>
                 </div>
               </div>
             </div>
             <div class="col-3 nav-icons">
-              <span class="header-share"><a href="https://github.com" target="_blank"><img src="./images/nav-share.png" alt="" /></a></span>
-              <span class="header-twitter"><a href="https://twitter.com" target="_blank"><img src="./images/nav-twitter.png" alt="" /></a></span>
-              <span class="header-mail"><a href="{{site.baseurl}}/contact.html"><img src="./images/nav-emailicon.png" alt="" /></a></span>
+              <span class="header-share"><a href="https://github.com" target="_blank"><img src="{{site.baseurl}}//images/nav-share.png" alt="" /></a></span>
+              <span class="header-twitter"><a href="https://twitter.com" target="_blank"><img src="{{site.baseurl}}//images/nav-twitter.png" alt="" /></a></span>
+              <span class="header-mail"><a href="{{site.baseurl}}/contact.html"><img src="{{site.baseurl}}//images/nav-emailicon.png" alt="" /></a></span>
               <button class="btn toggle-btn" onclick="myFunction()">Dark Mode</button>
             </div>
           </div>
@@ -175,9 +178,9 @@
                
                
                
-                <img class="img-adidas" src="./images/adidas.png" alt="" style="max-width: 420px; width: 100%; display: block;" />
-                <img class="img-por" src="./images/por1.png" alt="" style="max-width: 420px; width: 100%; display: block;" />
-                <img class="img-nike" src="./images/nike1.png" alt="" style="max-width: 420px; width: 100%; display: block;" />
+                <img class="img-adidas" src="{{site.baseurl}}//images/adidas.png" alt="" style="max-width: 420px; width: 100%; display: block;" />
+                <img class="img-por" src="{{site.baseurl}}//images/por1.png" alt="" style="max-width: 420px; width: 100%; display: block;" />
+                <img class="img-nike" src="{{site.baseurl}}//images/nike1.png" alt="" style="max-width: 420px; width: 100%; display: block;" />
               </div>
               <nav aria-label="Page navigation example">
                 <ul class="pagination">
@@ -214,8 +217,8 @@
     <!-- /#wrapper -->
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{site.baseurl}}/vendor/jquery/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

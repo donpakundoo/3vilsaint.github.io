@@ -861,3 +861,14 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+.form-group {
+  width: 350px;
+  position: relative;
+  margin: 0 0 0 50;
+}
+.log-text {
+  width: 100px;
+}
+.social {
+  width: 100px;
+}

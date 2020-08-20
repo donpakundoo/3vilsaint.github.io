@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Heading Type Here
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 category: programming

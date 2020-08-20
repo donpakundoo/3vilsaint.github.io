@@ -1,11 +1,11 @@
 ---
-layout: default
-title: C++ Tutorial
+layout: post
+title: "Sample Blog"
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 category: coding
-image: c++.png
-date: 7 April 2020
-tags: white hat hex
+image: card1-img.png
+date: 2020-08-19 11:19:34 +0800
+tags: white hat hex ethical hacking
 ---
 
 
