@@ -872,3 +872,6 @@ input[type=submit]:hover {
 .social {
   width: 100px;
 }
+.dark-mode .container {
+  color: white;
+}
