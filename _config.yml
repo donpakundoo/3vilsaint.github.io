@@ -1,6 +1,6 @@
 
 markdown: kramdown
-baseurl: ""
+baseurl: /3vilsaint
 exclude: ['README.md']
 future: true
 permalink: none   # /:categories/:title.html
