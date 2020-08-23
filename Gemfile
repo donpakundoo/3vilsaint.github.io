@@ -31,9 +31,6 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem 'tzinfo', '1.2.3'
-gem 'tzinfo-data', '1.2017.2'
 
-group :test do
-  gem "html-proofer"
-end
+
+
