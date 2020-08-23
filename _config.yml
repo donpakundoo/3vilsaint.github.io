@@ -1,6 +1,6 @@
 
 markdown: kramdown
-baseurl: /3vilsaint
+baseurl: /donpakundoo
 exclude: ['README.md']
 future: true
 permalink: none   # /:categories/:title.html
