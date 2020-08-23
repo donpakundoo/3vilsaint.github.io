@@ -6,7 +6,7 @@ layout: default
   <hr>
   <div class="row">
     <div class="col-sm-3 col-xs-12 title-img-col">
-      <img class="card-img-top" src="{{site.baseurl}}/images/{{post.image}}" alt="{{post.title}}" />
+      <img class="card-img-top" src="{{site.baseurl}}/assets/images/{{post.image}}" alt="{{post.title}}" />
     </div>
     <div class="col card-title-col">
       <h5 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h5>
