@@ -1,7 +1,7 @@
 
 markdown: kramdown
 baseurl: ""
-url: https://donpakundoo.github.io/
+url: "https://donpakundoo.github.io/"
 exclude: ['README.md']
 future: true
 permalink: none   # /:categories/:title.html
