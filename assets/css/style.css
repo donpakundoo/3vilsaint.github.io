@@ -362,7 +362,7 @@ span.density {
   line-height: 35px;
 }
 button#menu-toggle {
-  background: url(/assets/images/menu-burger.png);
+  background: url(../images/menu-burger.png);
   background-repeat: no-repeat;
   background-size: contain;
   border: none;
@@ -583,7 +583,7 @@ button#menu-toggle:focus {
     display: block;
   }
   button#menu-toggle {
-    background: url(/assets/images/menu-burger.png);
+    background: url(../images/menu-burger.png);
     background-repeat: no-repeat;
     background-size: contain;
     border: none;
