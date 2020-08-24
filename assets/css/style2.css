@@ -25,6 +25,7 @@ input.nav-search::placeholder {
   color: white;
 }
 
+
 input.nav-search {
   max-width: 754px;
   min-width: 100%;
@@ -865,6 +866,11 @@ input[type=submit]:hover {
   width: 350px;
   position: relative;
   margin: 0 0 0 50;
+}
+
+.form-group i {
+  margin-top: -10px;
+  margin-right: -50px;
 }
 .log-text {
   width: 100px;
